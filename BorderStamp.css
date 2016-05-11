@@ -63,7 +63,7 @@ body {
 }
 
 h1.sitetitle {
-  font-size: 32px;
+  font-size: 64px;
   margin: 8px 0 15px;
 }
 
@@ -77,9 +77,20 @@ h1 a, h1 a:link, h1 a:visited, h1 a:hover {
 }
 
 .motto {
-  margin: 12px 0;
-  color: #def;
+  /* margin: 12px 0; */
+  color: #666;
   font-weight: bold;
+}
+
+/* Centre images */
+#centre-image {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	position: relative;
 }
 
 /* Secondary Navigation, a styled list */
