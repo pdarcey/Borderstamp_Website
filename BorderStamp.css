@@ -1,3 +1,147 @@
 /* © 2016 Xerodonia Pty Ltd */
 
-p, div, h1, h2 {color: black; width: 80%; } /* modifies all 3 tags */
+html {
+  scrollbar-face-color: #99b;
+  scrollbar-arrow-color: #fff;
+  scrollbar-highlight-color: #fff;
+  scrollbar-shadow-color: #99c;
+  scrollbar-3dlight-color: #000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #F9B92B;
+  color: #000;
+  font: 12px "Lucida Grande", Helvetica, "Arial Unicode MS", "Arial Unicode", Arial, sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+
+/*
+ * Main Structure, wrap the whole layout in a div to keep it narrow and centered
+ */
+
+#wrapper {
+  position: relative;
+  width: 770px;
+  margin: 0 auto;
+  background: #F9B92B;
+  text-align: left;
+  z-index: 10;
+}
+
+/* Header */
+
+#header {
+  clear: both;
+  background: #F9B92B;
+  position: relative;
+}
+
+#masthead {
+  width: 490px;
+  padding: 1px 0 1px 40px;
+}
+
+#searchbox {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 280px;
+  padding: 0px 10px 14px 0;
+  border: 1px solid white;
+  text-align: right;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+
+#searchbox label strong {
+  text-decoration: underline;
+}
+
+h1.sitetitle {
+  font-size: 32px;
+  margin: 8px 0 15px;
+}
+
+h1 a, h1 a:link, h1 a:visited, h1 a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.subtitle {
+  font-size: .5em;
+}
+
+.motto {
+  margin: 12px 0;
+  color: #def;
+  font-weight: bold;
+}
+
+/* Secondary Navigation, a styled list */
+
+#otherstuff {
+  margin: 0;
+  padding: 0;
+  clear: both;
+  border-top: 1px white solid;
+  list-style: none inside;
+}
+
+#otherstuff li {
+  width: 191px;
+  float: left;
+  border: solid white;
+  border-width: 0 0 0 1px;
+  text-align: center;
+}
+
+#otherstuff li:first-child {
+  border: none;
+  padding-left: 1px;
+}
+
+#otherstuff li a {
+  display: block;
+  width: 191px;
+  padding: 3px 0;
+}
+
+#otherstuff li a:hover {
+  background: #F9B92B;
+}
+
+/* Main Content Area */
+
+#main {
+  clear: both;
+  border-top: 1px solid #fff;
+  margin-left: 25px;
+}
+
+/* Contentsia */
+
+#content {
+  float: left;
+  width: 500px;
+  margin: 10px 0 100px 0;
+  background: #F9B92B;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+a img {
+  border: none;
+}
+
+.centered {
+  text-align: center;
+}
+
+.right {
+  float: right;
+}
